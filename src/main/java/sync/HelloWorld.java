@@ -1,4 +1,4 @@
-package hello;
+package sync;
 
 import org.joda.time.LocalTime;
 
@@ -7,5 +7,6 @@ public class HelloWorld {
 		LocalTime currentTime = new LocalTime();
 		System.out.println("The current local time is: " + currentTime);
 		System.out.println("Hello World");
+		Config.loadConfig();
 	}
 }

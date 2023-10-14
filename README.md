@@ -10,6 +10,11 @@ Running this app requires having Java and Maven installed
 * Install Maven:\
 ```brew install maven```
 ## Compiling and Running
+
+The application expects to find a config file named `config.json` in the project root.\
+Create this from the example config file by running:\
+```cp config.json.example config.json```
+
 To compile:\
 ```mvn install```\
 To run:\
