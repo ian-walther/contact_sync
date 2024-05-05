@@ -11,9 +11,7 @@ Running this app requires having Java and Maven installed
 ```brew install maven```
 ## Compiling and Running
 
-The application expects to find a config file named `config.json` in the project root.\
-Create this from the example config file by running:\
-```cp config.json.example config.json```
+The application expects to find a the google api credentials file named `credentials.json` in the project root.\
 
 To compile:\
 ```mvn install```\

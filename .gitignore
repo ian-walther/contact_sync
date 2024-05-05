@@ -1,2 +1,5 @@
 target/*
 config.json
+credentials.json
+tokens/*
+.DS_STORE
